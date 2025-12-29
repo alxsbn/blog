@@ -1,7 +1,7 @@
 # CLAUDE.md - Blog Information
 
 ## Overview
-**11h.dev** is a personal blog by Alexis Blandin (alxsbn) for sharing thoughts on ideas and passions.
+**11h.dev** is a personal notes website and blog by Alexis Blandin (alxsbn) for sharing thoughts on ideas and passions.
 
 ## Technical Stack
 - **Platform**: Jekyll static site generator
