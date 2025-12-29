@@ -20,7 +20,7 @@ Feel free to reach out or follow me:
 
 - GitHub: [@alxsbn](https://github.com/alxsbn)
 - Email: [alexis.blandin@gmail.com](mailto:alexis.blandin@gmail.com) 
-- LinkedIn: [@alexisblandin](https:://www.linkedin.com/in/alexisblandin)
+- LinkedIn: [@alexisblandin](https://www.linkedin.com/in/alexisblandin)
 - Instagram: [@alxsblandin](https://www.instagram.com/alexisblandin) 
 
 ---
