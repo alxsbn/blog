@@ -1,8 +1,8 @@
 # Site settings
 title: 11h.dev
-description: Personal blog about tech, code, and ideas
+description: Personal blog about passions and ideas
 author: alxsbn
-email: your-email@example.com  # Update with your email
+email: alexis.blandin@gmail.com
 
 # Build settings
 markdown: kramdown
@@ -20,8 +20,8 @@ minima:
   skin: auto  # auto, dark, classic, solarized, solarized-dark
   social_links:
     - { platform: github, user_url: "https://github.com/alxsbn" }
-    # - { platform: twitter, user_url: "https://twitter.com/your-username" }
-    # - { platform: linkedin, user_url: "https://linkedin.com/in/your-username" }
+    - { platform: instagram, user_url: "https://www.instagram.com/alxisblandin" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/alexisblandin" }
 
 # Show post excerpts on home page
 show_excerpts: true
