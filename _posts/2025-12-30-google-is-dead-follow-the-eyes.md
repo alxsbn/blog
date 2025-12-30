@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google Is Dead. Follow The Eyes."
+title: "Google Is Dead. Follow The Eyes"
 date: 2025-12-30
 categories: marketing ai
 excerpt: "The puck moved. Stop staring at where it was."
