@@ -5,7 +5,7 @@ date: 2025-12-20
 categories: data testing
 ---
 
-We ran 3,500 tests across 500 models with a small data team. The outcome was predictable: slower delivery, maintenance overhead, duplicated validation of logic already tested in our APIs, and no improvement in business trust.
+At [Jolimoi](https://www.jolimoi.com) we ran 3,500 tests across 500 models with a small data team. The outcome was predictable: slower delivery, maintenance overhead, duplicated validation of logic already tested in our APIs, and no improvement in business trust.
 
 Today we're closer to 200 tests, reduced over a few weeks.
 
