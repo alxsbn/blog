@@ -28,6 +28,24 @@ La différence entre Vallotton au Louvre et GPT sur GitHub ? Léonard était mor
 
 ---
 
+Le pillage n'est pas un bug. C'est le moteur de l'histoire.
+
+Venise détourne la quatrième croisade pour piller Constantinople — concurrent économique gênant, chrétien comme elle. Les reliques volées ornent encore la basilique Saint-Marc.
+
+L'Angleterre bâtit sa révolution industrielle sur les enclosures — le pillage légal des communs. Les paysans deviennent prolétaires. Le capital s'accumule.
+
+La Renaissance ? Les humanistes pillent les Grecs via les traductions arabes. Les Arabes ne sont jamais crédités. On appelle ça la redécouverte du savoir antique.
+
+Le colonialisme, l'Opération Paperclip, Silicon Valley et son "move fast and break things" — même logique, échelle différente.
+
+Ce qui change dans l'histoire, ce n'est jamais le pillage. C'est qui a le droit de piller, et qui peut se plaindre.
+
+Quand les moines copient des manuscrits : noble préservation. Quand Google scanne des livres : vol caractérisé.
+
+Pike s'indigne. Pas parce que les règles ont changé. Parce qu'il s'est réveillé du mauvais côté de la table.
+
+---
+
 Le vrai sujet, c'est l'argent. Quand Pike copiait, AT&T puis Google captaient la valeur. Quand l'IA copie, OpenAI et Anthropic captent la valeur. C'est une guerre de capitalistes déguisée en débat éthique.
 
 Pike pensait qu'il construisait. Il était miné. Le mail de Noël, c'est la carte de vœux de la mine qui te souhaite de joyeuses fêtes.
