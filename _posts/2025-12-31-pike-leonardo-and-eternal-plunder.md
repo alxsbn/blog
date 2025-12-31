@@ -22,8 +22,6 @@ Pike built Go on C, Pascal, Oberon. Plan 9 on Unix. Paid by Bell Labs, then Goog
 
 The difference between Vallotton at the Louvre and GPT on GitHub? Leonardo was dead. Pike is alive. He can scream. That's all.
 
----
-
 Plunder isn't a bug. It's the engine of history.
 
 Venice diverts the Fourth Crusade to plunder Constantinople — an economic competitor, Christian like itself. The stolen relics still adorn St. Mark's Basilica.
