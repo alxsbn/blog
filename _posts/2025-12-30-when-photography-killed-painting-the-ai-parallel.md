@@ -1,86 +1,57 @@
 ---
 layout: post
-title: "When Photography Killed Painting (The AI Parallel)"
+title: "When Photography Killed Painting: The AI Parallel"
 date: 2025-12-30
 categories: ai history productivity
-excerpt: "In 1859, Baudelaire called photography 'art's most mortal enemy' and demanded it remain a servant. In 2025, the same arguments echo about AI and code. History doesn't repeat, but it rhymes."
+excerpt: "166 years ago, when photography arrived, the art world had the exact same meltdown we're seeing with AI today. History doesn't repeat, but it rhymes."
 ---
 
-The debates about AI replacing programmers feel **unprecedented**. Urgent. Existential.
+The debates about AI replacing programmers feel unprecedented, urgent, existential.
 
 They're not. We've been here before.
 
-**166 years ago**, when photography arrived, the art world had the exact same meltdown.
+166 years ago, when photography arrived, the art world had the exact same meltdown.
 
 ## 1859: Art's most mortal enemy
 
-Charles Baudelaire, writing in the *Revue Française*, absolutely **despised** photography:
+Charles Baudelaire, writing in the [*Revue Française*](https://gallica.bnf.fr/ark:/12148/bpt6k9641210r/f263.item), absolutely despised photography:
 
-> "As the photographic industry was the **refuge of all failed painters, too ill-equipped or too lazy** to complete their studies, this universal infatuation bore not only the character of blindness and imbecility, but also the color of vengeance."
+> "As the photographic industry was the refuge of all failed painters, too ill-equipped or too lazy to complete their studies, this universal infatuation bore not only the character of blindness and imbecility, but also the color of vengeance."
 
-> "This industry, by **invading the territories of art, has become art's most mortal enemy**."
+> "This industry, by invading the territories of art, has become art's most mortal enemy."
 
-His conclusion? Photography must "**return to its proper duty which consists in being a servant** to the sciences and the arts."
+His conclusion? Photography must "return to its proper duty which consists in being a servant to the sciences and the arts."
 
 Sound familiar?
 
-- "Refuge of failed painters, too lazy" → criticisms of AI users today
-- "Art's most mortal enemy" → what people say about AI and coding
-- "Must remain a servant" → "AI should just be a copilot"
+## 1862: The Petition of 26 Artists
 
-But here's the twist.
+Jean-Auguste-Dominique Ingres, established master of French academic painting, signed a formal "Protestation des grands artistes contre toute assimilation de la photographie à l'art." This [petition backed by 26 prominent artists](https://fr.wikipedia.org/wiki/Chambre_syndicale_de_la_photographie) was submitted during a court case that would determine whether photographs deserved legal protection as creative works.
 
-## 1862: The League Against Photography
+The irony? Ingres himself used photography to assist his paintings, and [posed for photographers multiple times](https://www.musee-orsay.fr/en/artworks/ingres-76922) throughout his life. He saw the threat, used the tool, but publicly fought to keep it subordinate.
 
-Jean-Auguste-Dominique Ingres, established master of French academic painting, **founded the "League of Artists Against Photography"** and led a formal "Protest by great artists against any assimilation of photography to art."
-
-The irony? **Ingres himself used photography** to assist his paintings.
-
-He saw the threat. Used the tool. But publicly fought to keep it subordinate.
-
-Ingres remains a towering figure in art history. His paintings hang in the Louvre. But his **resistance to photography**?
-
-Forgotten. Irrelevant. History moved on without him.
+Ingres remains a towering figure in art history, his paintings hang in the Louvre. But his resistance to photography? Forgotten, irrelevant. History moved on without him.
 
 ## The ones who won: those born with the camera
 
-The **Impressionists**:
-- Claude Monet (born 1840, **1 year after** the daguerreotype)
-- Pierre-Auguste Renoir (born 1841)
-- Paul Cézanne (born 1839, **the same year** photography was invented)
+The timing is striking. Nearly half of the most celebrated Impressionists were born within three years of photography's invention (the very year the daguerreotype was announced, 1839): Claude Monet (1840), Pierre-Auguste Renoir (1841), Berthe Morisot (1841), Alfred Sisley (1839), Paul Cézanne (1839).
 
-They didn't grow up mourning the "golden age of realistic painting." For them, photography **was just there**. Reality.
+They didn't grow up mourning the "golden age of realistic painting." For them, photography was simply there, reality rather than disruption. No baggage to drop, nothing to unlearn.
 
-No baggage to drop. Nothing to unlearn.
-
-So they invented something **the camera couldn't do**: impressionism, post-impressionism, eventually cubism and abstraction.
-
-They didn't fight photography. They **made it irrelevant** by going where it couldn't follow.
+And photography didn't just fail to destroy painting, it liberated it. By taking over the duty of documentation, the camera revealed that reproducing reality was no longer the point. Suddenly, "painting what you see" became redundant. So the Impressionists asked a different question: what do I *perceive*? What do I *feel*? They didn't fight photography, they made it irrelevant by going where it couldn't follow.
 
 ## Today's impressionists
 
 The pattern is repeating.
 
-Senior developers—years of experience, battle-tested expertise—often resist AI coding tools the hardest. Not because they're wrong about code quality. But because they have **the most to lose**.
+Senior developers, with years of experience and battle-tested expertise, will almost certainly resist AI coding tools the hardest. Not because they're wrong about code quality, but because they have the most to lose: years of muscle memory, hard-won reflexes, craft pride tied to "writing elegant code."
 
-Years of muscle memory. Reflexes. Craft pride tied to "writing elegant code."
+Meanwhile, new developers arriving today won't carry that weight. For them, AI coding tools will simply be there, reality rather than a threat to unlearn around. They won't debate whether AI-generated code is "real programming." They'll just ask: what can I build with this?
 
-Meanwhile, new developers arriving today don't carry that weight. AI coding tools **are just there**. Reality. Not a threat to unlearn around.
+The seniors who let go will evolve, like the academic painters who adapted and found new value beyond technical execution. The ones who hold the line? History has already written their story.
 
-They don't debate whether AI-generated code is "real programming."
+## 166 years later, same story, both sides
 
-They just ask: **"What can I build with this?"**
+Here's the final irony: today, AI isn't just unsettling programmers, it's unsettling artists too. The same art world that was supposedly "destroyed" by photography in 1859, and went on to produce its most revolutionary century, is now facing generative AI with the exact same arguments.
 
-The seniors who **let go** will evolve. Like the academic painters who adapted, shifted focus, found new value beyond technical execution.
-
-The ones who hold the line? History has already written their story. It's called the League Against Photography.
-
-## The question
-
-Ingres' paintings still hang in museums. But his **League Against Photography**? Forgotten. A historical curiosity.
-
-The Impressionists didn't fight the camera. They **defined modern art**.
-
-The skill that matters now isn't defending the old craft. It's **letting go** to discover what comes next.
-
-Which side are you on?
+The skill that matters now isn't defending the old craft. It's letting go to discover what comes next.
