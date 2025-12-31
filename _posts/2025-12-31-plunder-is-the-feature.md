@@ -22,7 +22,7 @@ Leonardo was plundered by Raphael, Dürer, entire generations. We call it art hi
 
 Pike built Go on C, Pascal, Oberon. Plan 9 on Unix. Paid by Bell Labs, then Google for 17 years. He never sent a cent to Ken Thompson.
 
-The difference between Vallotton at the Louvre and GPT on GitHub? Leonardo was dead. Pike is alive. He can scream. That's all.
+The difference between Vallotton at the Louvre and OpenAI on GitHub? Leonardo was dead. Pike is alive. He can scream. That's all.
 
 ## Not a Bug, a Feature
 
