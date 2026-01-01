@@ -20,9 +20,9 @@ Why spend an hour understanding what the agent did in three seconds? Why verify 
 
 Not understanding becomes rational. Ignorance is no longer a fault — it's an optimization.
 
-You don't give up. You slide.
+You don't give up. You vibe.
 
-The "YOLO" mode in some coding tools is the sketch of this. You let the machine do it, you approve without reading, you trust by default. Not out of submission, but comfort. It's faster. And it works — until it doesn't. And that day, you no longer have the grip to diagnose.
+The "YOLO" mode of Claude Code is the sketch of this. You let the machine do it, you approve without reading, you trust by default. Not out of submission, but comfort. It's faster. And it works — until it doesn't. And that day, you no longer have the grip to diagnose.
 
 The formative error disappears. If the machine gets it right the first time, you don't learn why. Error is what reveals reality — what resists, what jams. Without ever having broken a pipeline, you don't know why it holds.
 
