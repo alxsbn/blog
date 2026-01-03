@@ -26,7 +26,7 @@ I've spent years writing code. And I've noticed something: developers have the s
 
 We want to see every line. Review every change. Understand every decision. The idea of letting an AI write code for hours, unsupervised? That's terrifying.
 
-Yet here's Boris Cherny, [describing his workflow](https://x.com/borischerny):
+Yet here's Boris Cherny, creator of Claude Code, [sharing his stats](https://x.com/bcherny/status/2004626064187031831): 259 PRs, 497 commits, 40k lines added in 30 days. Every line written by Claude.
 
 > "I let Claude run for hours with a well-prepared plan and hooks that allow me to step away."
 
