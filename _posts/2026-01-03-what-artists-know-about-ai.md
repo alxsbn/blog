@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Productive Discomfort: From Sketchbook to YOLO Mode"
+title: "What Artists Know About AI"
 date: 2026-01-03
 categories: [art, ai, creativity]
 excerpt: "What urban sketching taught me about letting AI run for hours. The skill nobody talks about: letting go."
