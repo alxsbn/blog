@@ -5,7 +5,7 @@ date: 2026-01-05
 categories: ai productivity philosophy
 excerpt: "Reintroducing friction isn't a bug. It's a political choice. The cost of friction is lower than the cost of fragility."
 header_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/LaBo%C3%A9tie001.jpg/960px-LaBo%C3%A9tie001.jpg"
-header_image_alt: "Close-up of mechanical gears and clockwork mechanism"
+header_image_alt: "Portrait of Étienne de La Boétie, 16th century French political theorist"
 header_image_credit: ""
 header_image_credit_url: ""
 header_image_source: "Wikipedia"
@@ -18,7 +18,7 @@ A costly choice: it slows things down, complicates them. Rarely made — unless 
 
 ## Some propositions 
 
-1) **Preserve non-automated zones**: Not out of nostalgia for **cognitive hygiene**. Spaces where you keep doing things yourself, making mistakes, understanding why things break. The point is that it's a choice of **competence**, not technological lag.
+1) **Preserve non-automated zones**: Not out of nostalgia, but for **cognitive hygiene**. Spaces where you keep doing things yourself, making mistakes, understanding why things break. The point is that it's a choice of **competence**, not technological lag.
 
 2) **Organize cognitive fire drills**: Regularly unplug the agent and replay by hand. Verify you still know how. It's tedious, it's slow but that's exactly why it's useful.
 

@@ -35,8 +35,8 @@ The formative error disappears. If the machine gets it right the first time, you
 ## Anesthesia replaces suffering
 Yet suffering at work is a political signal. It generates conflict, therefore speech, therefore negotiation. A collective that no longer suffers but no longer understands either is incapable of defending itself. It has no reason to complain and no longer the words to do so.
 
-Unlearning is invisible, it's not "we no longer know how to do X". It's "we no longer know how to learn X when context changes" 
+Unlearning is invisible. It's not "we no longer know how to do X". It's "we no longer know how to learn X when context changes." 
 
-The loss is in meta-skills: diagnosing, tinkering, sensing that something's off. It goes unseen — until the day you need it.
+The loss is in meta-skills: diagnosing, tinkering, sensing that something's off. It goes unseen—until the day you need it.
 
-Modern servitude no longer needs constraint. It works through comfort. You don't choose to submit. You choose not to resist  which eventually stops being a choice.
+Modern servitude no longer needs constraint. It works through comfort. You don't choose to submit. You choose not to resist—which eventually stops being a choice.
