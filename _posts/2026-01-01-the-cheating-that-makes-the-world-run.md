@@ -2,7 +2,7 @@
 layout: post
 title: "The Cheating That Makes the World Run"
 date: 2026-01-01
-categories: work ai productivity
+categories: work ai productivity series
 excerpt: "Real work is constant cheating. Tolerated. Necessary. Denied by the very people who benefit from it."
 header_image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1600&q=80"
 header_image_alt: "Industrial factory worker operating machinery"

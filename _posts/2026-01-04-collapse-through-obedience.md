@@ -2,7 +2,7 @@
 layout: post
 title: "Collapse through Obedience"
 date: 2026-01-04
-categories: ai philosophy organization
+categories: ai philosophy organization series
 excerpt: "An army that obeys perfectly is a defeated army. AI realizes the old Taylorist dream: prescription perfectly executed. But complex systems hold together through their slack."
 header_image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1600&q=80"
 header_image_alt: "Soldiers marching in formation during military parade"
@@ -12,7 +12,7 @@ header_image_source: "Unsplash"
 header_image_source_url: "https://unsplash.com"
 ---
 
-There's one institution where the question of obedience was settled in blood: **army**.
+There's one institution where the question of obedience was settled in blood: **the army**.
 
 For centuries, military doctrine sought perfect obedience. The soldier as extension of the commander's will. Then came modern wars. And the military learned.
 
