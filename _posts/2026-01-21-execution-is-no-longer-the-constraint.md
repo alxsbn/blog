@@ -12,27 +12,24 @@ header_image_source: "Unsplash"
 header_image_source_url: "https://unsplash.com"
 ---
 
-A warning first: what follows happened under specific conditions. A small, senior team, twenty years of accumulated context, and infrastructure stable enough to absorb rapid change. This isn't a universal playbook. It's what happened when execution stopped being the bottleneck.
+> [!WARNING]
+> What follows happened under specific conditions. A small, senior team, twenty years of accumulated context, and infrastructure stable enough to absorb rapid change. This isn't a universal playbook. It's what happened when execution stopped being the bottleneck.
 
 ---
 
 For decades, software organizations were shaped by one dominant constraint: development was slow and expensive. Every process, every ritual, every layer of validation existed because shipping code took time, and mistakes were costly to fix.
 
-Roadmaps batched work into quarters. Sprints batched it into weeks. Backlogs accumulated because there was always more to build than capacity to build it. Feasibility acted as a natural filter: if something was hard to implement, it often didn't happen.
+Roadmaps batched work into quarters and sprints batched it into weeks. Backlogs accumulated because there was always more to build than capacity to build it. Feasibility acted as a natural filter: if something was hard to implement, it often didn't happen.
 
-That constraint is collapsing.
-
----
+That constraint is now collapsing.
 
 ## The shift
 
-In six months, I went from writing code to planning and validating AI-generated output. What used to require multiple reviewers and days of back-and-forth now resolves in a single pass. Claude became our top GitHub committer. We went from one or two PRs per week to several per day.
+In six months, I went from writing code to planning and validating AI-generated output. What used to require multiple reviewers and days of back-and-forth now resolves in a single pass. [Claude](https://claude.com/product/claude-code) became our top GitHub committer. We went from one or two PRs per week to several per day.
 
 When code takes minutes instead of hours, postponed work suddenly moves. Refactors happen. The backlog stops being a stockpile and becomes a flow.
 
 But this isn't just about speed. It's about what speed reveals.
-
----
 
 ## The questions that remain
 
@@ -41,8 +38,6 @@ When execution was expensive, feasibility answered most prioritization questions
 Now feasibility answers almost nothing. The hard questions moved upstream: *should we build this?* and *what does it displace?* and, perhaps most importantly, *what do we choose to ignore?*
 
 These aren't engineering questions. They're judgment questions. And they don't compress the way code does.
-
----
 
 ## The new bottleneck
 
@@ -54,17 +49,13 @@ The question mattered more than it sounded. Our system was built to authorize wo
 
 This is the new problem. Not *how do we go faster?* but *how do we decide faster, and better, without burning out the people who decide?*
 
----
-
 ## Why "going faster" isn't a strategy
 
-Speed used to be a competitive advantage because it was rare. When everyone can ship fast, speed becomes table stakes. The differentiation moves elsewhere: to taste, to focus, to the quality of the problems you choose to solve.
+On the startup world, speed used to be a competitive advantage because it was rare. When everyone can ship fast, speed becomes table stakes. The differentiation moves elsewhere: to taste, to focus, to the quality of the problems you choose to solve.
 
 Organizations optimized for throughput will keep optimizing for throughput, and they'll wonder why it doesn't help. The bottleneck moved upstream, but the dashboards still measure velocity.
 
 The companies that adapt won't be the ones that ship the most. They'll be the ones that learn to say no faster, with more conviction, and with clearer reasons.
-
----
 
 Execution was the constraint that justified our structures.
 
