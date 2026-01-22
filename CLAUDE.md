@@ -10,6 +10,23 @@
 - **Hosting**: GitHub Pages
 - **Domain**: https://11h.dev
 
+### GitHub Pages Constraints (IMPORTANT)
+
+GitHub Pages uses **Minima v2.5.1** (not v3.x). This has limitations:
+
+| Feature | Minima 3.x | Minima 2.5.1 (GitHub Pages) |
+|---------|------------|----------------------------|
+| `custom-head.html` hook | ✅ Auto-included | ❌ Requires manual override |
+| Dark mode | ✅ Built-in | ⚠️ Via `skin: auto` |
+
+**To include custom head content** (favicon, custom CSS):
+- Create `_includes/head.html` that copies Minima's default and adds `{% include custom-head.html %}`
+- See current `_includes/head.html` for reference
+
+**Current custom includes:**
+- `_includes/head.html` - Override to include custom-head.html
+- `_includes/custom-head.html` - Favicon + header image CSS
+
 ## Blog Structure
 
 ### Content Organization
@@ -25,7 +42,7 @@ layout: post
 title: "Post Title"
 date: YYYY-MM-DD
 categories: [category1, category2]
-excerpt: "Short description for preview"
+excerpt: 'Short description for preview'  # Use single quotes if content has "double quotes"
 header_image: "https://images.unsplash.com/photo-XXXXX?w=1600&q=80"
 header_image_alt: "Image description"
 header_image_credit: "Photographer Name"
@@ -34,6 +51,9 @@ header_image_source: "Unsplash"
 header_image_source_url: "https://unsplash.com"
 ---
 ```
+
+**YAML Quoting Rule**: If excerpt contains `"quotes"`, use single quotes outside: `excerpt: 'Be "data-driven"'`
+If it also has apostrophes, double them: `excerpt: 'It''s "data-driven"'`
 
 ### Header Images
 Every blog post should have a header image. The custom `_layouts/post.html` supports header images with proper attribution.
@@ -81,7 +101,7 @@ Header pages:
 - jekyll-sitemap (sitemap generation)
 
 ## Content Guidelines
-- **Primary Language**: English
+- **Language**: Always write blog posts in **English**, even if the user provides input in French. Translate and adapt the content.
 - **Topics**: Ideas, passions, reflections, AI, productivity, philosophy
 - **Style**: Personal, thoughtful, analytical
 
@@ -98,6 +118,5 @@ Header pages:
 4. "La flemme comme révélateur" (French, shorter version)
 
 ## Notes
-- Blog accepts both English and French content
 - Focus on quality over quantity
 - Articles explore philosophical and practical aspects of technology, work, and human behavior
