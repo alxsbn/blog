@@ -46,6 +46,34 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
 }
 
+/* ===== Override Minima Link Colors ===== */
+.home-container a.post-card__link,
+.home-container a.post-card__link:visited,
+.home-container a.post-card__link:active,
+.posts-container a.post-card__link,
+.posts-container a.post-card__link:visited,
+.posts-container a.post-card__link:active,
+a.post-card__link,
+a.post-card__link:visited,
+a.post-card__link:active {
+  color: #1a1a1a !important;
+  text-decoration: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .home-container a.post-card__link,
+  .home-container a.post-card__link:visited,
+  .home-container a.post-card__link:active,
+  .posts-container a.post-card__link,
+  .posts-container a.post-card__link:visited,
+  .posts-container a.post-card__link:active,
+  a.post-card__link,
+  a.post-card__link:visited,
+  a.post-card__link:active {
+    color: #e8e8e8 !important;
+  }
+}
+
 /* ===== Home Container ===== */
 .home-container {
   max-width: 680px;
@@ -185,11 +213,25 @@ h1, h2, h3, h4, h5, h6,
   min-width: 0;
 }
 
-.post-card__title {
+.post-card__title,
+.post-card a .post-card__title,
+a.post-card__link .post-card__title,
+h2.post-card__title,
+h3.post-card__title {
   font-size: 1.25rem;
   margin: 0 0 0.5rem 0;
-  color: var(--color-text) !important;
+  color: #1a1a1a !important;
   transition: color 0.2s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-card__title,
+  .post-card a .post-card__title,
+  a.post-card__link .post-card__title,
+  h2.post-card__title,
+  h3.post-card__title {
+    color: #e8e8e8 !important;
+  }
 }
 
 .post-card:hover .post-card__title {
@@ -206,11 +248,21 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.03em;
 }
 
-.post-card__excerpt {
+.post-card__excerpt,
+.post-card a .post-card__excerpt,
+a.post-card__link .post-card__excerpt {
   font-size: 1rem;
   line-height: 1.5;
-  color: var(--color-text-secondary);
+  color: #6b6b6b !important;
   margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-card__excerpt,
+  .post-card a .post-card__excerpt,
+  a.post-card__link .post-card__excerpt {
+    color: #a0a0a0 !important;
+  }
 }
 
 .post-card__read-more {
