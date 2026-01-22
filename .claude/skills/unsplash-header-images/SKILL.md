@@ -215,9 +215,61 @@ The custom `_layouts/post.html` already supports header images:
 
 No additional setup needed - just add the YAML fields.
 
+## CRITICAL: Unsplash URL Formats
+
+Unsplash uses **two different ID formats** that are NOT interchangeable:
+
+### 1. Short Photo ID (Page URLs)
+- Format: `ee5yWSeHPuw`, `8gr6bObQLOI`
+- Used in: `unsplash.com/photos/ee5yWSeHPuw`
+- **⚠️ DOES NOT WORK** with `images.unsplash.com/photo-{id}`
+
+### 2. Timestamp ID (CDN URLs)
+- Format: `1517842645767-c639042777db`
+- Used in: `images.unsplash.com/photo-1517842645767-c639042777db`
+- **✅ THIS IS THE CORRECT FORMAT** for header images
+
+### How to Get the Correct URL
+
+When you find an image on Unsplash:
+
+1. **DON'T** copy the short ID from the page URL
+2. **DO** search for images that have verified timestamp-format URLs
+
+**Validation Check:**
+```
+✅ VALID:   photo-1517842645767-c639042777db  (timestamp-hash format)
+❌ INVALID: photo-ee5yWSeHPuw                 (short ID format)
+```
+
+The timestamp format always has:
+- A 13-digit number (Unix timestamp in milliseconds)
+- A hyphen
+- A 12-character alphanumeric hash
+
+### Finding Working URLs
+
+When searching for images, look for URLs that have already been verified to work:
+
+1. Search: `images.unsplash.com/photo-15 [your keywords]`
+2. Or reference existing working URLs in the blog's `_posts/` directory
+3. Test the URL directly before adding to a post
+
+### Known Working Images by Theme
+
+| Theme | Working URL | Photographer |
+|-------|-------------|--------------|
+| Workspace/Laptop | `photo-1499951360447-b19be8fe80f5` | Domenico Loia |
+| Writing/Notebook | `photo-1517842645767-c639042777db` | J. Kelly Brito |
+| Robot/AI | `photo-1485827404703-89b55fcc595e` | Alex Knight |
+| Server/Tech | `photo-1558494949-ef010cbdcc31` | Taylor Vick |
+| Code/Programming | `photo-1461749280684-dccba630e2f6` | Ilya Pavlov |
+| Time/Clock | `photo-1501139083538-0139583c060f` | Aron Visuals |
+
 ## Troubleshooting
 
 **Issue: Image doesn't display**
+- **FIRST**: Check if the URL uses short ID format (invalid) vs timestamp format (valid)
 - Check that `layout: post` is set in front matter
 - Verify image URL is valid and includes `?w=1600&q=80`
 - Ensure no YAML syntax errors
