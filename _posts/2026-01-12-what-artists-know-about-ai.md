@@ -4,10 +4,10 @@ title: "What Artists Know About AI"
 date: 2026-01-12
 categories: ai productivity work
 excerpt: "What urban sketching taught me about letting AI run for hours. The skill nobody talks about: letting go."
-header_image: "https://images.unsplash.com/photo-ee5yWSeHPuw?w=1600&q=80"
-header_image_alt: "Person sketching on notebook using pen"
-header_image_credit: "Kaizen Nguyễn"
-header_image_credit_url: "https://unsplash.com/@kaizennguyen"
+header_image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=1600&q=80"
+header_image_alt: "Person writing notes in notebook with pen"
+header_image_credit: "J. Kelly Brito"
+header_image_credit_url: "https://unsplash.com/@hellokellybrito"
 header_image_source: "Unsplash"
 header_image_source_url: "https://unsplash.com"
 ---
