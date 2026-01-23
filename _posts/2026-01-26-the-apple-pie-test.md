@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Apple Pie Test"
-date: 2026-01-14
+date: 2026-01-26
 categories: ai philosophy work series
 excerpt: "A consultant hid cooking recipes in technical documentation. No one ever noticed. AI agents would—but who decides what they look for?"
 header_image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=1600&q=80"
