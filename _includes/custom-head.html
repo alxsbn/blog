@@ -43,10 +43,87 @@
   }
 }
 
-/* Apply serif to body text */
+/* Apply base styles to body */
 body {
   font-family: var(--font-serif);
   -webkit-font-smoothing: antialiased;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Force dark mode colors on all Minima elements */
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background-color: #1a1a1a !important;
+  color: #e8e8e8 !important;
+}
+
+html[data-theme="dark"] .page-content,
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .site-footer,
+html[data-theme="dark"] .wrapper {
+  background-color: #1a1a1a !important;
+  color: #e8e8e8 !important;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] .post-title,
+html[data-theme="dark"] .post-content {
+  color: #e8e8e8 !important;
+}
+
+html[data-theme="dark"] p,
+html[data-theme="dark"] .post-meta {
+  color: #a0a0a0 !important;
+}
+
+html[data-theme="dark"] a {
+  color: #e07c74 !important;
+}
+
+html[data-theme="dark"] a:visited {
+  color: #d56a63 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]),
+  html:not([data-theme="light"]) body {
+    background-color: #1a1a1a !important;
+    color: #e8e8e8 !important;
+  }
+
+  html:not([data-theme="light"]) .page-content,
+  html:not([data-theme="light"]) .site-header,
+  html:not([data-theme="light"]) .site-footer,
+  html:not([data-theme="light"]) .wrapper {
+    background-color: #1a1a1a !important;
+    color: #e8e8e8 !important;
+  }
+
+  html:not([data-theme="light"]) h1,
+  html:not([data-theme="light"]) h2,
+  html:not([data-theme="light"]) h3,
+  html:not([data-theme="light"]) h4,
+  html:not([data-theme="light"]) .post-title,
+  html:not([data-theme="light"]) .post-content {
+    color: #e8e8e8 !important;
+  }
+
+  html:not([data-theme="light"]) p,
+  html:not([data-theme="light"]) .post-meta {
+    color: #a0a0a0 !important;
+  }
+
+  html:not([data-theme="light"]) a {
+    color: #e07c74 !important;
+  }
+
+  html:not([data-theme="light"]) a:visited {
+    color: #d56a63 !important;
+  }
 }
 
 /* Headlines use serif bold */
@@ -310,27 +387,32 @@ a.post-card__link .post-card__excerpt {
   margin-top: 1rem;
 }
 
-/* ===== RSS Subscribe ===== */
-.feed-subscribe {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--color-border);
-  text-align: center;
-}
-
-.feed-subscribe a {
-  display: inline-flex;
+/* ===== Subscribe Section (top of homepage) ===== */
+.subscribe-section {
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
   font-family: var(--font-sans);
   font-size: 0.875rem;
+}
+
+.subscribe-section a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
   color: var(--color-text-secondary);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.feed-subscribe a:hover {
+.subscribe-section a:hover {
   color: var(--color-accent);
+}
+
+.subscribe-divider {
+  color: var(--color-border);
 }
 
 .feed-icon {
@@ -744,15 +826,50 @@ document.addEventListener('DOMContentLoaded', function() {
   transition: filter 0.2s ease;
 }
 
-/* Invert logo in dark mode (red -> light) */
+/* Logo visibility in dark mode - keep original colors, adjust brightness slightly */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .site-logo {
-    filter: brightness(0) invert(1);
+    filter: brightness(1.1);
   }
 }
 
 [data-theme="dark"] .site-logo {
-  filter: brightness(0) invert(1);
+  filter: brightness(1.1);
+}
+
+/* Navigation links in dark mode */
+[data-theme="dark"] .site-nav .page-link,
+[data-theme="dark"] .site-title {
+  color: var(--color-text) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .site-nav .page-link,
+  :root:not([data-theme="light"]) .site-title {
+    color: var(--color-text) !important;
+  }
+}
+
+/* Footer in dark mode */
+[data-theme="dark"] .site-footer,
+[data-theme="dark"] .footer-col-wrapper {
+  color: var(--color-text-secondary) !important;
+  border-color: var(--color-border) !important;
+}
+
+[data-theme="dark"] .site-footer a {
+  color: var(--color-text) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .site-footer,
+  :root:not([data-theme="light"]) .footer-col-wrapper {
+    color: var(--color-text-secondary) !important;
+    border-color: var(--color-border) !important;
+  }
+  :root:not([data-theme="light"]) .site-footer a {
+    color: var(--color-text) !important;
+  }
 }
 
 .site-title-text {
@@ -856,7 +973,8 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 (function() {
   const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
+  // Only apply valid theme values
+  if (savedTheme === 'light' || savedTheme === 'dark') {
     document.documentElement.setAttribute('data-theme', savedTheme);
   }
 })();

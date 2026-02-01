@@ -5,8 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      <img src="{{ '/assets/11h-logo.png' | relative_url }}" alt="" class="site-logo" aria-hidden="true">
-      <span class="site-title-text">{{ site.title | escape }}</span>
+      <img src="{{ '/assets/11h-logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo">
     </a>
 
     <div class="site-header-right">
