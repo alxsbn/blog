@@ -15,6 +15,19 @@ layout: default
   </div>
   {%- endif -%}
 
+  <!-- Subscribe Section -->
+  <div class="subscribe-section">
+    <a href="{{ 'feed.xml' | relative_url }}" class="subscribe-rss">
+      <svg class="feed-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="6.18" cy="17.82" r="2.18"/>
+        <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+      </svg>
+      RSS
+    </a>
+    <span class="subscribe-divider">|</span>
+    <a href="#newsletter" class="subscribe-newsletter">Newsletter</a>
+  </div>
+
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
@@ -70,13 +83,8 @@ layout: default
   </div>
   {%- endif -%}
 
-  <p class="feed-subscribe">
-    <a href="{{ 'feed.xml' | relative_url }}">
-      <svg class="feed-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-        <circle cx="6.18" cy="17.82" r="2.18"/>
-        <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
-      </svg>
-      Subscribe via RSS
-    </a>
-  </p>
+  <!-- Newsletter Box -->
+  <div id="newsletter">
+    {% include newsletter-form.html %}
+  </div>
 </div>
