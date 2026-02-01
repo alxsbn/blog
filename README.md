@@ -1,2 +1,2 @@
-# blog
+# 11h.dev
 My personal blog
