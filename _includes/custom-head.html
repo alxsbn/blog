@@ -3,6 +3,14 @@
 <link rel="icon" href="{{ '/assets/11h-logo.ico' | relative_url }}" sizes="any">
 <link rel="apple-touch-icon" href="{{ '/assets/11h-logo.png' | relative_url }}">
 
+<!-- Open Graph Image - Override jekyll-seo-tag to use header_image -->
+{% if page.header_image %}
+<meta property="og:image" content="{{ page.header_image }}" />
+<meta property="og:image:alt" content="{{ page.header_image_alt | default: page.title }}" />
+<meta name="twitter:image" content="{{ page.header_image }}" />
+<meta name="twitter:card" content="summary_large_image" />
+{% endif %}
+
 <!-- Google Fonts - Substack-inspired typography -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
