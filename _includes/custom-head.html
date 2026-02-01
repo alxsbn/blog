@@ -877,17 +877,31 @@ document.addEventListener('DOMContentLoaded', function() {
   font-weight: 700;
 }
 
-/* ===== Header Layout ===== */
-.site-header .wrapper {
+/* ===== Header Layout (3-column) ===== */
+.site-header .header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.site-header-right {
+.header-left,
+.header-center,
+.header-right {
+  flex: 1;
   display: flex;
   align-items: center;
-  gap: 1rem;
+}
+
+.header-left {
+  justify-content: flex-start;
+}
+
+.header-center {
+  justify-content: center;
+}
+
+.header-right {
+  justify-content: flex-end;
 }
 
 /* ===== Theme Toggle Button ===== */
@@ -950,10 +964,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /* ===== Mobile adjustments ===== */
 @media (max-width: 600px) {
-  .site-header-right {
-    gap: 0.5rem;
-  }
-
   .site-logo {
     height: 28px;
   }
@@ -965,6 +975,17 @@ document.addEventListener('DOMContentLoaded', function() {
   .theme-toggle svg {
     width: 18px;
     height: 18px;
+  }
+
+  /* On mobile, keep the 3-column layout but allow natural sizing */
+  .header-left,
+  .header-center,
+  .header-right {
+    flex: 0 0 auto;
+  }
+
+  .site-header .header-wrapper {
+    gap: 0.5rem;
   }
 }
 </style>
