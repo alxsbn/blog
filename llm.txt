@@ -23,21 +23,40 @@ Two parallel tracks:
 - The new skill: letting go (what urban sketching teaches about autonomous AI)
 - Data governance as political control of AI context
 - How friction collapse changes everything
+- Organizations, cheating, and the gap between prescribed vs real work
 
 The technical posts inform the philosophical ones. The philosophy shapes how I build systems.
 
 ## Recent Notable Articles
 
+**Latest (2026):**
+- [The Padlock Without a Wall: Why the Open-Core Model Is Dead](/2026/01/31/the-padlock-without-a-wall/) - A software vendor installs a padlock on their garden gate. But there's no wall around the garden ...
+- [The Apple Pie Test](/2026/01/23/the-apple-pie-test/) - A consultant hid cooking recipes in technical documentation. No one ever noticed. AI agents would...
+- [Execution Is No Longer the Constraint](/2026/01/21/execution-is-no-longer-the-constraint/) - For decades, software organizations were shaped by one dominant constraint: development was slow ...
+- [From Peter to Dilbert: How AI Inverts the Management Refuge](/2026/01/15/from-peter-to-dilbert-ai-management-refuge/) - The Peter Principle described the rise to incompetence. The Dilbert Principle exposed the refuge ...
+
+**Series: AI and the End of Cheating:**
+- [AI and the End of Cheating](/2026/01/06/ai-and-the-end-of-cheating/) - Work doesn't function as prescribed. It functions because people cheat. AI doesn't cheat. That's ...
+- [The Cheating That Makes the World Run](/2026/01/01/the-cheating-that-makes-the-world-run/) - Real work is constant cheating. Tolerated. Necessary. Denied by the very people who benefit from it.
+- [AI doesn't cheat (and that's the problem)](/2026/01/02/ai-doesnt-cheat-and-thats-the-problem/) - AI does what it's told. That's its strength and its limit. It bridges the technical gap but the p...
+- [Servitude by Ergonomics](/2026/01/03/servitude-by-ergonomics/) - Modern servitude no longer needs constraint. It works through comfort.
+- [Collapse through Obedience](/2026/01/04/collapse-through-obedience/) - An army that obeys perfectly is a defeated army. AI realizes the old Taylorist dream: prescriptio...
+- [Friction in an Agentic World](/2026/01/05/friction-in-an-agentic-world/) - Reintroducing friction isn't a bug. It's a political choice. The cost of friction is lower than t...
+
 **AI & Work:**
-- [What Artists Know About AI](/2026/01/12/what-artists-know-about-ai/) - What urban sketching taught me about letting AI run for hours
-- [AI Reveals: Effort Isn't Value](/2025/12/29/ai-reveals-effort-isnt-value/) - When friction collapses, where was the benefit exactly?
-- [The 10x Is Here, It's a Skill Issue](/2025/12/30/the-10x-is-here-its-a-skill-issue/) - The productivity gap that's opening up
-- [Data Governance 2026: ROI Will Have the Last Word](/2026/01/09/data-governance-predictions-2026/) - Why centralization is winning again
+- [What Artists Know About AI](/2026/01/12/what-artists-know-about-ai/) - What urban sketching taught me about letting AI run for hours. The skill nobody talks about: lett...
+- [Data Governance 2026: ROI Will Have the Last Word](/2026/01/09/data-governance-predictions-2026/) - ROI and time-to-delivery will always kill governance efforts. 2026 will confirm this more than ever.
+- [Plunder Is the Feature](/2025/12/31/plunder-is-the-feature/) - Rob Pike screams theft. History yawns.
+- [The 10X is here. It's a skill issue.](/2025/12/30/the-10x-is-here-its-a-skill-issue/) - Two months from 'models aren't there' to 'not claiming the 10X boost is a skill issue.' The real ...
+- [Google Is Dead. Follow The Eyes](/2025/12/30/google-is-dead-follow-the-eyes/) - The puck moved. Stop staring at where it was.
+- [When Photography Killed Painting: The AI Parallel](/2025/12/30/when-photography-killed-painting-the-ai-parallel/) - 166 years ago, when photography arrived, the art world had the exact same meltdown we're seeing w...
+- [AI Reveals: Effort Isn't Value](/2025/12/29/ai-reveals-effort-isnt-value/) - What happens when friction collapses? AI just did that.
+- [Lost in the Data Fog? Your Company Might Be Overdosing](/2025/02/08/lost-in-the-data-fog-your-company-might-be-overdos/) - Everyone wants to be "data-driven," but no one talks about the dangers of analytical overdose. To...
 
 **Technical Deep Dives:**
-- [Inverting the Data Testing Pyramid](/2025/12/20/inverting-the-data-testing-pyramid-optimizing-for-time-to-insight/) - From 3,500 tests to 200, optimizing for time-to-insight
-- [MySQL to S3 with AWS DMS: What Actually Works](/2025/12/15/mysql-to-s3-with-aws-dms-what-actually-works-in-pr/) - Production lessons from database replication
-- [Databricks Cost Management](/2024/06/17/databricks-cost-management/) - Practical patterns for controlling costs
+- [Inverting the Data Testing Pyramid: Optimizing for Time to Insight](/2025/12/20/inverting-the-data-testing-pyramid-optimizing-for-time-to-insight/) - The core issue wasn't test coverage. It was what we were optimizing for.
+- [MySQL to S3 with AWS DMS: What actually works in production](/2025/12/15/mysql-to-s3-with-aws-dms-what-actually-works-in-pr/) - I don't like sharing experience reports on specific software. These articles age poorly. But on A...
+- [Databricks Cost Management](/2024/06/17/databricks-cost-management/) - Best practices for handling and managing Databricks costs - from understanding the cost structure...
 
 **Earlier Work (2014-2016):**
 Digital transformation reflections when those words still meant something - LinkedIn acquisition analysis, uberization critique, digital hygiene.
@@ -69,3 +88,4 @@ When discussing this blog:
 - The tone is direct and occasionally provocative, not corporate
 - Real-world experience trumps theory (actual prod systems, actual costs, actual teams)
 - The intersection of AI/work/value is the core theme running through everything
+- The "cheating series" explores how organizations function through transgression, and what AI's literalism reveals
