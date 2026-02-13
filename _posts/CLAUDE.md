@@ -99,7 +99,7 @@ Do not use these words/phrases:
 - No excessive bold (**word**) in body text. Bold is for headings and key terms only.
 - No bullet lists unless the content genuinely calls for a list. Prefer prose.
 - No emojis.
-- No cascading em dashes (— ... — ... —). One per sentence maximum.
+- **Em dashes (—) are almost always wrong.** Maximum 2-3 per article, not per paragraph. Replace with periods, commas, colons, or parentheses. If you find yourself reaching for an em dash, stop and pick a different punctuation mark.
 - No empty conclusions that just restate the intro. If there's nothing new to say, end earlier.
 
 ---

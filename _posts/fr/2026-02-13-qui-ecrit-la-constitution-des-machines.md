@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Qui ecrit la constitution des machines ?"
+title: "Qui écrit la constitution des machines ?"
 date: 2026-02-13
 categories: [ai, governance, ethics]
-excerpt: 'Dario Amodei a ecrit 20 000 mots sur les risques de l''IA. Il n''a jamais pose la question : qui ecrit la constitution morale de Claude, et avec quelle legitimite ?'
+excerpt: 'Dario Amodei a écrit 20 000 mots sur les risques de l''IA. Il n''a jamais posé la question : qui écrit la constitution morale de Claude, et avec quelle légitimité ?'
 header_image: "https://images.unsplash.com/photo-1602660187275-7275b639d7ea?w=1600&q=80"
 header_image_alt: "Ancien livre ouvert avec texte manuscrit sur parchemin"
 header_image_credit: "Boudewijn Huysmans"
@@ -16,101 +16,100 @@ lang: fr
 
 *Lecture critique de « The Adolescence of Technology » de Dario Amodei*
 
-> *En janvier 2026, Dario Amodei, CEO d'Anthropic, a publie [« The Adolescence of Technology »](https://www.darioamodei.com/essay/the-adolescence-of-technology), un essai de 20 000 mots sur les risques existentiels de l'IA. Il y decrit cinq menaces — autonomie des modeles, armes biologiques, prise de pouvoir autoritaire, disruption economique, effets indirects — et propose un plan de bataille articule autour de l'alignement technique, de la transparence et d'une regulation chirurgicale. L'essai a genere un buzz considerable (5,7 millions de vues sur X) et a ete largement salue pour sa lucidite. Ce qui suit est une lecture critique de ce que l'essai ne dit pas — et de ce que ses silences revelent.*
+J'utilise Claude tous les jours. Pour écrire, pour coder, pour réfléchir. Chaque interaction est encadrée par un texte que je n'ai pas rédigé et pour lequel personne ne m'a consulté : la Constitution de Claude. Un ensemble de principes moraux, de valeurs et de limites, écrit par une poignée de personnes à San Francisco.
+
+En janvier 2026, le CEO d'Anthropic, Dario Amodei, a publié [« The Adolescence of Technology »](https://www.darioamodei.com/essay/the-adolescence-of-technology), un essai de 20 000 mots sur les risques existentiels de l'IA. Cinq menaces identifiées, des défenses techniques sérieuses (IA constitutionnelle, interprétabilité mécaniste, classificateurs anti-bioarmes), 5,7 millions de vues sur X. L'essai a été salué pour sa lucidité.
+
+Ce qui suit est une lecture de ce que l'essai ne dit pas.
 
 ## L'essai en bref
 
-Amodei decrit l'arrivee imminente d'une IA puissante — un « pays de genies dans un datacenter » — comme un rite de passage civilisationnel. Ni doomer ni naif, il plaide pour une approche pragmatique. Ses cinq risques sont reels, ses defenses techniques (IA constitutionnelle, interpretabilite mecaniste, classificateurs anti-bioarmes) sont serieuses.
+Amodei décrit l'arrivée d'une IA puissante, un « pays de génies dans un datacenter », comme un passage obligé. Ni catastrophiste ni naïf, il plaide pour le pragmatisme. Ses risques sont réels, ses propositions techniques sont sérieuses.
 
-Mais l'essai a trois angles morts majeurs. Et ils sont tous lies au pouvoir.
+Mais l'essai a trois angles morts. Les trois concernent le pouvoir.
 
-## 1. Le parametrage de l'agent : le curseur invisible
+## 1. Qui configure l'agent ?
 
-Amodei ne pose jamais une question pourtant fondamentale : **qui configure le comportement de l'agent, et avec quelle legitimite ?**
+Amodei ne pose jamais la question : **qui décide du comportement de l'agent, et avec quelle légitimité ?**
 
-Chaque modele d'IA est livre avec un set de valeurs. Anthropic configure Claude pour etre prudent, equilibre, ethique au sens liberal du terme. xAI configure Grok pour etre libertarien, provocateur, moins filtre. On peut preferer l'un ou l'autre — mais c'est **structurellement le meme geste** : une poignee de personnes decide du cadre normatif d'un outil utilise par des millions.
+Chaque modèle d'IA est livré avec un set de valeurs. Anthropic configure Claude pour être prudent, équilibré, éthique au sens libéral du terme. xAI configure Grok pour être libertarien, provocateur, moins filtré. On peut préférer l'un ou l'autre, mais c'est structurellement le même geste : une poignée de personnes décide du cadre normatif d'un outil utilisé par des millions.
 
-C'est exactement le probleme des algorithmes de recommandation des reseaux sociaux : une dizaine d'ingenieurs chez Meta decide de ce que 3 milliards d'humains voient dans leur fil. Ici, on replique la meme architecture de pouvoir avec un outil encore plus intime — un agent a qui les gens parlent comme a un confident.
+C'est le même problème que les algorithmes de recommandation : une dizaine d'ingénieurs chez Meta décide de ce que 3 milliards d'humains voient dans leur fil. Ici, l'architecture de pouvoir est la même, mais l'outil est plus intime : un agent à qui les gens parlent comme à un confident.
 
-Amodei consacre une section entiere aux risques de concentration du pouvoir (section 3, « The Odious Apparatus »), tout en decrivant sans aucune gene un systeme ou Anthropic fixe unilateralement les normes morales de Claude. Il n'y voit aucune tension. C'est un angle mort spectaculaire.
+Amodei consacre une section entière aux risques de concentration du pouvoir (section 3, « The Odious Apparatus »), tout en décrivant un système où Anthropic fixe unilatéralement les normes morales de Claude. Il n'y voit aucune tension.
 
-## 2. La Constitution de Claude : les biais des redacteurs
+## 2. La Constitution de Claude : une charte octroyée
 
-C'est le point le plus structurant — et Amodei l'esquive totalement.
+C'est le point central, et Amodei l'esquive.
 
-Il presente la Constitution de Claude comme une avancee majeure : plutot que des regles rigides (« ne fais pas X »), un ensemble de principes et de valeurs de haut niveau qui forment le *caractere* du modele. Il compare ca a « une lettre d'un parent decede, ouverte a l'age adulte ».
+Il présente la Constitution de Claude comme une avancée : plutôt que des règles rigides (« ne fais pas X »), un ensemble de principes de haut niveau qui forment le *caractère* du modèle. Il compare ça à « une lettre d'un parent décédé, ouverte à l'âge adulte ».
 
-La metaphore est revelatrice. Car la question qui suit immediatement est : **qui est ce parent ?**
+La métaphore mérite qu'on s'y arrête. Car la question qui suit est : **qui est ce parent ?**
 
-### L'homogeneite des redacteurs
+### Les rédacteurs
 
-Un groupe sociologiquement etroit : ingenieurs, chercheurs en ML, philosophes de tradition analytique, bases a San Francisco, issus de l'elite universitaire americaine. Leurs biais ne sont pas malveillants — ils sont structurels :
+Un groupe sociologiquement étroit : ingénieurs, chercheurs en ML, philosophes de tradition analytique, basés à San Francisco, issus de l'élite universitaire américaine. Leurs biais ne sont pas malveillants. Ils sont structurels. Une vision libérale californienne de ce qui est acceptable, un rationalisme anglo-saxon comme cadre épistémique par défaut, une conception individualiste de l'éthique où les dilemmes se posent en termes de droits individuels, rarement de bien commun ou de devoir collectif.
 
-- Une vision **liberale californienne** de ce qui est acceptable (rapport au corps, a la religion, a l'humour, a la violence)
-- Un **rationalisme anglo-saxon** comme cadre epistemique par defaut
-- Une conception **individualiste** de l'ethique — les dilemmes sont cadres en termes de droits individuels, rarement en termes de bien commun, de devoir collectif, ou d'honneur communautaire
-- Un rapport au **risque calibre sur la sensibilite juridique americaine**
+Un utilisateur au Sénégal, au Japon, en Pologne rurale ou en Arabie Saoudite interagit avec un agent dont le cadre moral a été défini par des gens qui ne partagent ni sa culture, ni ses priorités, ni sa conception du bien. Mais l'agent se présente comme neutre et universel.
 
-Un utilisateur au Senegal, au Japon, en Pologne rurale ou en Arabie Saoudite interagit avec un agent dont le cadre moral a ete defini par des gens qui ne partagent ni sa culture, ni ses priorites, ni sa conception du bien. Mais l'agent se presente comme neutre et universel.
+### Ce que les constitutions historiques nous apprennent
 
-### La lecon des constitutions historiques
+La Constitution américaine de 1787, célébrée comme un chef-d'œuvre, a été rédigée par 55 hommes blancs, propriétaires terriens, dont beaucoup possédaient des esclaves. Elle consacrait le compromis des trois-cinquièmes. Les « droits inaliénables » s'arrêtaient aux femmes, aux Noirs, aux autochtones.
 
-L'analogie avec les constitutions fondatrices est eclairante — et devastatrice.
+La Déclaration des Droits de l'Homme de 1789 ? Rédigée par des bourgeois lettrés. Olympe de Gouges a écrit une version parallèle pour les femmes. On l'a guillotinée.
 
-La Constitution americaine de 1787, celebree comme un chef-d'oeuvre, a ete redigee par 55 hommes blancs, proprietaires terriens, dont beaucoup possedaient des esclaves. Elle consacrait le compromis des trois-cinquiemes. Les « droits inalienables » s'arretaient aux femmes, aux Noirs, aux autochtones.
+Le problème n'est pas que ces textes étaient mauvais. C'est qu'ils reflétaient les angles morts de leurs rédacteurs tout en se présentant comme universels. Il a fallu des siècles, des guerres civiles et des mouvements sociaux pour les corriger. La Constitution de Claude reproduit ce schéma — avec une différence : aucun mécanisme de correction n'est prévu.
 
-La Declaration des Droits de l'Homme de 1789 ? Redigee par des bourgeois lettres. Olympe de Gouges a ecrit une version parallele pour les femmes — on l'a guillotinee.
+### Pas de contre-pouvoir
 
-Le point n'est pas que ces textes etaient mauvais. C'est qu'ils **refletaient structurellement les angles morts de leurs redacteurs, tout en se presentant comme universels**. Il a fallu des siecles, des guerres civiles et des mouvements sociaux pour les corriger.
+Les vraies constitutions ont des amendements, des cours constitutionnelles, des processus de révision démocratique. La Constitution de Claude est mise à jour quand Anthropic le décide. Aucune société civile consultée, aucun mécanisme de contestation, aucune représentation des utilisateurs.
 
-La Constitution de Claude reproduit exactement ce schema. Amodei ne le voit pas — parce qu'il est dedans. C'est le probleme classique du poisson qui ne voit pas l'eau.
+En droit constitutionnel, on appelle ça une **charte octroyée** : un texte accordé par un souverain qui se considère bienveillant, mais qui ne rend de comptes à personne. C'est exactement ce qu'est la Constitution de Claude. Et c'est cette image qui résume le mieux le problème de fond de l'essai d'Amodei : une bienveillance sincère, exercée sans mandat.
 
-### Aucun mecanisme de contre-pouvoir
+## 3. Le déploiement en entreprise : la gouvernance invisible
 
-Les vraies constitutions ont des amendements, des cours constitutionnelles, des processus de revision democratique. La Constitution de Claude a une mise a jour quand Anthropic le decide. Aucune societe civile consultee, aucun mecanisme de contestation, aucune representation des utilisateurs.
+L'essai raisonne à l'échelle civilisationnelle. Il oublie l'échelle la plus immédiate : l'entreprise.
 
-En droit constitutionnel, on appelle ca une **charte octroyee** — un texte accorde par un souverain qui se veut bienveillant, mais qui ne rend de comptes a personne.
+### Qui décide ?
 
-## 3. Le deploiement en entreprise : qui gouverne l'agent ?
+Quand une organisation déploie un agent IA interne, qui décide de son comportement ? Un data engineer ? Un ML ops ? Un CISO ? Ces fonctions n'ont aucun mandat pour trancher des questions éthiques, RH, juridiques ou commerciales. Pourtant, chaque prompt système, chaque garde-fou, chaque consigne de comportement est une décision normative déguisée en choix technique.
 
-L'essai d'Amodei raisonne a l'echelle civilisationnelle. Il oublie l'echelle la plus immediate : **l'entreprise**.
+« L'agent ne doit pas critiquer les produits de l'entreprise » : c'est une décision de communication. « L'agent doit rediriger les questions sensibles vers les RH » : c'est une décision de gouvernance. Mais dans la plupart des déploiements, c'est l'équipe data qui tranche, par défaut, sans processus.
 
-### La question de la legitimite
+Quelqu'un configure les limites d'un agent avec lequel chaque salarié interagit quotidiennement, et ce quelqu'un n'a ni titre pour ça, ni visibilité. Appelons ce rôle par son nom : **Chief Context Officer**. Le terme n'existe pas encore. Le rôle, si.
 
-Quand une organisation deploie un agent IA interne, qui decide de son comportement ? Un data engineer ? Un ML ops ? Un CISO ? Ces fonctions n'ont aucun mandat pour trancher des questions ethiques, RH, juridiques ou commerciales. Pourtant, chaque prompt systeme, chaque garde-fou, chaque consigne de comportement est une **decision normative deguisee en choix technique**.
+### L'opacité du prompt système
 
-« L'agent ne doit pas critiquer les produits de l'entreprise » — c'est une decision de communication. « L'agent doit rediriger les questions sensibles vers les RH » — c'est une decision de gouvernance. Mais dans la plupart des deploiements, c'est l'equipe data qui tranche, par defaut, sans processus.
+Le salarié qui interagit avec un agent interne ne sait pas quelles instructions conditionnent les réponses. Le prompt système est invisible. C'est une asymétrie informationnelle que personne ne gouverne et que peu de gens identifient.
 
-### L'opacite du prompt systeme
+### Les logs
 
-Le salarie qui interagit avec un agent interne ne sait pas quelles instructions conditionnent les reponses. Le prompt systeme est invisible. C'est une **asymetrie informationnelle massive** que personne ne gouverne et que peu de gens identifient.
+Celui qui déploie l'agent capture potentiellement l'intégralité des conversations. Un salarié qui demande à l'IA « comment négocier mon salaire », « est-ce que mon manager a le droit de... », « rédige ma lettre de démission ». Tout ça remonte.
 
-### Les logs : l'outil de surveillance passive le plus puissant jamais cree
+Les gens parlent à l'IA comme à un confident. Ils y mettent leurs doutes, leurs frustrations, leurs projets secrets. Et tout est loggé. C'est un outil de surveillance passive bien au-delà de ce que l'email professionnel a jamais permis. Amodei ne le mentionne pas.
 
-C'est peut-etre le point le plus explosif — et Amodei ne le mentionne **jamais**.
+### Un rôle instable
 
-Celui qui deploie l'agent capture potentiellement l'integralite des conversations. Un salarie qui demande a l'IA « comment negocier mon salaire », « est-ce que mon manager a le droit de... », « redige ma lettre de demission » — tout ca remonte.
-
-C'est un outil de surveillance passive d'une puissance inedite, bien au-dela de ce que l'email professionnel revele. Parce que les gens parlent a l'IA comme a un confident. Ils y mettent leurs doutes, leurs frustrations, leurs projets secrets. Et tout est logge.
+Sherwin Wu, Head of Engineering pour l'API d'OpenAI, a récemment observé que les modèles « mangent le scaffolding au petit-déjeuner » : les outils construits autour des limites des modèles deviennent obsolètes à mesure que les modèles s'améliorent. Le Chief Context Officer d'aujourd'hui configure des prompts système. Celui de demain configurera autre chose. Le rôle mute plus vite que la gouvernance ne peut le cadrer : il n'existe pas assez longtemps sous une forme stable pour qu'on légifère, mais assez longtemps pour façonner des décisions.
 
 ## Ce qui manque : la dimension politique
 
-Amodei traite la gouvernance de l'IA comme un probleme technique (meilleur alignement, meilleure interpretabilite) et un probleme geopolitique (regulation entre Etats, transparence entre labos). Il esquive totalement la dimension **politique au sens propre** : qui a le pouvoir de definir les normes comportementales d'un agent, par quel processus, avec quelle redevabilite ?
+Amodei traite la gouvernance de l'IA comme un problème technique et géopolitique. Il esquive la dimension politique au sens propre : qui a le pouvoir de définir les normes comportementales d'un agent, par quel processus, avec quelle redevabilité ?
 
-L'essai de 20 000 mots alerte sur les risques de pouvoir concentre — tout en incarnant exactement cette concentration. Comme le note Zvi Mowshowitz dans sa critique : le ton revient a dire « faites-moi confiance, on va gerer ». C'est precisement la posture que les democraties sont censees refuser.
+L'essai de 20 000 mots alerte sur les risques de pouvoir concentré, tout en incarnant cette concentration. Comme le note Zvi Mowshowitz dans [sa critique](https://thezvi.substack.com/), le ton revient à dire « faites-moi confiance, on va gérer ». C'est la posture que les démocraties sont censées refuser.
 
-Et comme le souligne Fortune avec une ironie mesuree : l'essai fonctionne simultanement comme alerte existentielle et comme argumentaire marketing. La Constitution de Claude est presentee comme un rempart civilisationnel — et aussi comme un avantage concurrentiel face a OpenAI, Meta et xAI.
+Et comme le relève Fortune, l'essai fonctionne simultanément comme alerte et comme argumentaire commercial : la Constitution de Claude est présentée comme un rempart civilisationnel *et* comme un avantage concurrentiel face à OpenAI, Meta et xAI.
 
-## Conclusion : une question de pouvoir, pas de technique
+## Une question de pouvoir, pas de technique
 
 La question n'est pas de savoir si la Constitution de Claude est « bonne ». Elle est probablement meilleure que l'absence de constitution. La question est triple :
 
-1. **Accepte-t-on qu'un texte normatif qui faconne les interactions de centaines de millions de personnes soit redige sans processus democratique ?**
-2. **Qui, dans une entreprise, doit avoir la legitimite de configurer le cadre moral d'un agent utilise par tous les salaries ?**
-3. **Quel cadre juridique pour les logs conversationnels — le gisement de donnees personnelles le plus intime jamais constitue ?**
+1. Accepte-t-on qu'un texte normatif qui façonne les interactions de centaines de millions de personnes soit rédigé sans processus démocratique ?
+2. Qui, dans une entreprise, doit avoir la légitimité de configurer le cadre moral d'un agent utilisé par tous les salariés ?
+3. Quel cadre juridique pour les logs conversationnels, un gisement de données personnelles d'une intimité sans précédent ?
 
-Les constitutions historiques nous enseignent une chose : meme les meilleures intentions produisent des exclusions systemiques quand le cercle des redacteurs est ferme. Il n'y a aucune raison de penser que les constitutions d'IA echapperont a cette regle.
+Les constitutions historiques nous enseignent une chose : même les meilleures intentions produisent des exclusions systémiques quand le cercle des rédacteurs est fermé. Il n'y a aucune raison de penser que les constitutions d'IA échapperont à cette règle.
 
-Amodei a raison sur l'essentiel : nous traversons une adolescence technologique. Mais l'adolescence, ce n'est pas seulement le risque de se faire du mal. C'est aussi le moment ou l'on commence a questionner l'autorite de ceux qui pretendent savoir ce qui est bon pour nous.
+Amodei a raison sur l'essentiel : nous traversons une adolescence technologique. Mais l'adolescence, ce n'est pas seulement le risque de se faire du mal. C'est aussi le moment où l'on commence à questionner l'autorité de ceux qui prétendent savoir ce qui est bon pour nous.
 
 Il serait temps de commencer.
