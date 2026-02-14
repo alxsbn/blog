@@ -64,7 +64,7 @@ Le problème n'est pas que ces textes étaient mauvais. C'est qu'ils reflétaien
 
 ### Pas de contre-pouvoir
 
-Or, les vraies constitutions ont des amendements, des cours constitutionnelles et des processus de révision démocratique. La Constitution de Claude est mise à jour quand Anthropic le décide. Aucune société civile consultée, aucun mécanisme de contestation et aucune représentation des utilisateurs.
+Car les vraies constitutions ont des amendements, des cours constitutionnelles et des processus de révision démocratique. La Constitution de Claude est mise à jour quand Anthropic le décide. Aucune société civile consultée, aucun mécanisme de contestation et aucune représentation des utilisateurs.
 
 En droit constitutionnel, on appelle ça une **charte octroyée** : un texte accordé par un souverain qui se considère bienveillant, mais qui ne rend de comptes à personne. C'est exactement ce qu'est la Constitution de Claude. Et c'est cette image qui résume le mieux le problème de fond de l'essai d'Amodei : une bienveillance sincère, exercée sans mandat.
 
@@ -76,13 +76,13 @@ L'essai résonne à l'échelle civilisationnelle, mais en oublie une plus imméd
 
 Quand une organisation déploie un agent IA interne, qui décide de son comportement ? Un data engineer ? Un ML ops ? Un CISO ? Ces fonctions n'ont aucun mandat pour trancher des questions éthiques, RH, juridiques ou commerciales. Pourtant, chaque prompt système, chaque garde-fou, chaque consigne de comportement est une décision normative déguisée en choix technique.
 
-« L'agent ne doit pas critiquer les produits de l'entreprise » : c'est une décision de communication. « L'agent doit rediriger les questions sensibles vers les RH » : c'est une décision de gouvernance. Mais dans la plupart des déploiements, c'est l'équipe data qui tranche, par défaut, sans processus.
+« L'agent ne doit pas critiquer les produits de l'entreprise » : c'est une décision de communication. « L'agent doit rediriger les questions sensibles vers les RH » : c'est une décision de gouvernance. Mais dans la plupart des déploiements, c'est l'équipe data qui tranche, par défaut et sans processus.
 
 Quelqu'un configure les limites d'un agent avec lequel chaque salarié interagit quotidiennement, et ce quelqu'un n'a ni titre pour ça, ni visibilité. Appelons ce rôle par son nom : **Chief Context Officer**. Le terme n'existe pas encore. Le rôle, si.
 
 ### L'opacité du prompt système et la surveillance passive
 
-Le salarié qui interagit avec un agent interne *ne sait potentiellement pas quelles instructions conditionnent les réponses*. Le prompt système est invisible, et c'est une asymétrie informationnelle que personne ne gouverne et que peu de gens identifient. Il est pourtant tout à fait possible d'exposer le prompt système d'un agent et de créer une forme de constitution interne transparente, mais c'est un chantier que presque personne n'a encore ouvert.
+Le salarié qui interagit avec un agent interne *ne sait potentiellement pas quelles instructions conditionnent les réponses*. Le prompt système est souvent invisible, et c'est une asymétrie informationnelle que personne ne gouverne et que peu de gens identifient. Il est pourtant tout à fait possible d'exposer le prompt système d'un agent et de créer une forme de constitution interne transparente, mais c'est un chantier que presque personne n'a encore ouvert.
 
 De plus, celui qui déploie l'agent capture potentiellement l'intégralité des conversations, et tout ce qu'un salarié confie à l'IA. Les gens ne sont pas naïfs au point de demander à un agent interne comment négocier leur salaire : pour ça, ils iront sur ChatGPT. Mais ils y glissent des éléments autrement plus sensibles sans toujours en avoir conscience : des orientations stratégiques, des arbitrages commerciaux, des choix marketing qui n'ont pas encore été annoncés, ou des réflexions sur la réorganisation d'une équipe.
 
@@ -90,19 +90,19 @@ Côté vie privée, le constat est plus préoccupant encore. Certains utilisateu
 
 ### Un rôle instable
 
-Même ce rôle de Chief Context Officer, même les garde-fous mis en place aujourd'hui, ne dureront pas nécessairement sous leur forme actuelle. Sherwin Wu, Head of Engineering pour l'API d'OpenAI, a récemment observé que les modèles « mangent le scaffolding au petit-déjeuner » : les outils construits autour des limites des modèles deviennent obsolètes à mesure que les modèles s'améliorent. Les entreprises auront besoin de quelqu'un pour gouverner leurs agents, et ce rôle finira par se structurer. Mais pour l'instant, il mute plus vite que la gouvernance ne peut le cadrer : il n'existe pas assez longtemps sous une forme stable pour qu'on légifère, mais assez longtemps pour façonner des décisions.
+Même ce rôle de Chief Context Officer, même les garde-fous mis en place aujourd'hui, ne dureront pas nécessairement sous leur forme actuelle. Sherwin Wu, Head of Engineering pour l'API d'OpenAI, [a récemment observé](https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers) que les modèles « mangent le scaffolding au petit-déjeuner » : les outils construits autour des limites des modèles deviennent obsolètes à mesure que les modèles s'améliorent. Les entreprises auront besoin de quelqu'un pour gouverner leurs agents, et ce rôle finira par se structurer. Mais pour l'instant, il mute plus vite que la gouvernance ne peut le cadrer : il n'existe pas assez longtemps sous une forme stable pour qu'on légifère, mais assez longtemps pour façonner des décisions.
 
 ## Ce qui manque : la dimension politique
 
 Amodei traite la gouvernance de l'IA comme un problème technique et géopolitique. Il esquive la dimension politique au sens propre, car qui a le pouvoir de définir les normes comportementales d'un agent, par quel processus, et avec quelle redevabilité ?
 
-L'essai de 20 000 mots alerte sur les risques de pouvoir concentré, tout en incarnant cette concentration. Comme le note Zvi Mowshowitz dans [sa critique](https://thezvi.substack.com/), le ton revient à dire « faites-moi confiance, on va gérer ». C'est la posture que les démocraties sont censées refuser.
+Son essai de 20 000 mots alerte sur les risques de pouvoir concentré, tout en incarnant cette concentration. Comme le note Zvi Mowshowitz dans [sa critique](https://thezvi.substack.com/), le ton revient à dire « faites-moi confiance, on va gérer », et c'est la posture que les démocraties sont censées refuser.
 
 Et comme le relève Fortune, l'essai fonctionne simultanément comme alerte et comme argumentaire commercial : la Constitution de Claude est présentée comme un rempart civilisationnel *et* comme un avantage concurrentiel face à OpenAI, Meta et xAI.
 
 ## Une question de pouvoir, pas de technique
 
-Finalement, la question n'est pas de savoir si la Constitution de Claude est « bonne ». Elle est probablement meilleure que l'absence de constitution. De mon point de vue, la question est triple :
+Finalement, la question n'est pas de savoir si la Constitution de Claude est « bonne ». Elle est probablement meilleure que l'absence de constitution. De mon point de vue, il demeure trois questions :
 
 1. Accepte-t-on qu'un texte normatif qui façonne les interactions de centaines de millions de personnes soit rédigé sans processus démocratique ?
 2. Qui, dans une entreprise, doit avoir la légitimité de configurer le cadre moral d'un agent utilisé par tous les salariés ?
@@ -110,4 +110,4 @@ Finalement, la question n'est pas de savoir si la Constitution de Claude est « 
 
 Car les constitutions historiques nous enseignent une chose : même les meilleures intentions produisent des exclusions systémiques quand le cercle des rédacteurs est fermé. Il n'y a aucune raison de penser que les constitutions d'IA, y compris celle de Claude, échapperont à cette règle.
 
-Mais donnons à Amodei crédit sur l'essentiel. Nous traversons une adolescence technologique. Mais l'adolescence, ce n'est pas seulement le risque de se faire mal. C'est aussi le moment où l'on commence à questionner l'autorité de ceux qui prétendent savoir ce qui est bon pour nous.
+Donnons à Amodei crédit sur l'essentiel : nous traversons une adolescence technologique. Mais l'adolescence, ce n'est pas seulement le risque de se faire mal. C'est aussi le moment où l'on commence à questionner l'autorité de ceux qui prétendent savoir ce qui est bon pour nous.
